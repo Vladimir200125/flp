@@ -1,12 +1,12 @@
 // реализация интерфейса в proginter
-class Lozina implements proginter {
+class mishenin implements proginter {
 	// объявляем переменные
         String firstName;
 	String lastName;
-        // объявляем констурктор  объекта класса Lozina
-        Lozina() {
-                firstName = "Лозина" ;
-        	lastName = "Анастасия";
+        // объявляем констурктор  объекта класса Mishenin
+        Mishenin() {
+                firstName = "Мишенин" ;
+        	lastName = "Владимир";
 	}
 
         // реализация метода интерфейса  getString - получения следующего значения в последовательности
@@ -14,11 +14,11 @@ class Lozina implements proginter {
                 return firstName +  " " +  lastName;
         }
 }
-class Anastaz {
+class Vladimir {
         public static void main(String[] args) {
-                Lozina anastasia = new Lozina();
+                Mishenin vladimir = new Mishenin();
                 proginter s;
-                s = anastasia;
+                s = vladimir;
                 System.out.println("Вывод фамилии и им+ени \"через 2\"");
 
                 for (int l = 0; l < 5; l++)
